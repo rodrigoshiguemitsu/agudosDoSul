@@ -1,0 +1,31 @@
+
+
+#Main_Header{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 30px;
+}
+
+#Artigo1_Header{
+    max-width: 60%;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.Icons_Artigo1_Header{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#Artigo2_Header{
+    max-width: 40%;
+    width: 100%;
+    margin-top: 5px;
+}
+.Icons_Artigo2_Header{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
