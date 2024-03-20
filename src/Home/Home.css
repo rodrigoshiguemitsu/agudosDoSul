@@ -1,0 +1,9 @@
+
+    @media screen and (min-width: 923px){
+
+        #Main_Home{
+            max-width: 1400px;
+            margin: auto;
+            width: 100%;
+        }
+    }

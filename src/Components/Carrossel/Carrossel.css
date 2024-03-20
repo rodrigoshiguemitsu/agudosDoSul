@@ -1,14 +1,95 @@
 
-
-
-#Main_Carrossel{
-    max-width: 1200px;
-    margin: auto;
+section.slider{
     width: 100%;
-    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden; /* esconde a barra de rolagem do scrool*/
     background: radial-gradient(circle, rgba(211,211,211,1) 34%, rgba(255,255,255,1) 95%);
 }
-#Img_Carrossel{
-    width: 80%;
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input, .img-mobile{ /*vamos esconder todos os inputs de radio
+    e encontar a imagem na margin-0*/
+    display: none;
     
 }
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+.slide-box img{
+    height: 400px;
+}
+
+.nav-manual, .nav-auto{
+    position:absolute;
+    width: 100%;
+    margin-top: 378px; /*valor variavel que pode aumentar ou diminuir de acordo com o projeto*/
+    display: flex;
+    justify-content: center;
+}
+.nav-manual .manual-btn, .nav-auto div{
+    border:1px solid transparent;
+    padding: 10px;
+    width: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){/* " 
+    :last-child significa que os comandos do css não se aplica a ultima radio para que não fique fora de alinhamento. 
+    " */
+    margin-right: 10px;
+}
+.nav-manual .manual-btn:hover{
+    background-color: rgba(255, 255, 255, 0.303);
+}
+
+/*Quando o radio estiver passando automaticamente ou manualmente e estiver marcado,
+    quero que apareça com o background preenchido com uma cor */
+#radio1:checked ~ .nav-auto .auto-btn1{
+    background-color: transparent;
+}
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background-color: transparent;
+}
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: transparent;
+}
+
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+
+@media screen and (max-width: 900px){
+    .img-desktop{
+        display: none;
+    }
+    .img-mobile{
+        display: block;
+    }
+
+    .nav-auto, .nav-manual{
+        margin-top: 60%; /*Valor variavel de acordo com o projeto*/
+    }
+}
+
+

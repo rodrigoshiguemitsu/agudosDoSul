@@ -22,7 +22,14 @@
     margin: auto;
     margin-top: 10px;
     width: 100%;
-    height: 90%;
     border-radius: 6px;
-    background-color: blue;
+    text-align: center;
+}
+
+/*imagens com 750 x 750 */
+.Img_Orgaos_Publicos{
+    max-width: 200px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 2.5px;
 }
