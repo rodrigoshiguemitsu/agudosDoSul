@@ -2,6 +2,7 @@
 
 @media screen and (max-width: 767px) {
     #Main_Cabecalho2{
+        
         display: flex;
         width: 100%;
         justify-content: center;
@@ -69,6 +70,7 @@
     #Main_Cabecalho2{
         display: flex;
         width: 100%;
+        margin: auto;
         justify-content: center;
         text-align: center;
         height: 100px;
@@ -216,3 +218,88 @@
 
 
 }
+
+
+
+
+
+
+/*Espaço para codigo DropDown*/
+/*
+.menu{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu.active{
+    opacity: 1;
+    visibility: visible;
+    
+}
+.menu{
+    opacity: 0;
+}
+
+.Button_Navegacao_Cabecalho2{
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: black;
+    border:transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.Ul_Cabecalho2{
+    list-style: none;
+    background-color: rgba(250, 235, 215, 0.838);
+    border-radius: 6px;
+    padding: 6px;
+}
+.Li_Cabecalho2{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.P_Cabecalho2{
+    margin-top: 7px;
+    margin-bottom: 7px;  
+    
+}*/
+
+
+
+
+
+
+
+
+/*=======================================*/
+
+/*
+#Main_Cabecalho2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.09913793103448276) 13%, rgba(211,211,211,1) 100%);
+}
+#Artigo_Image_Cabecalho2{
+    max-width: 25%;
+    width: 100%;
+}
+#Image_Cabecalho2{
+    height: 100%;
+    padding-left: 40px;
+}
+
+#Artigo_Navegacao_Cabecalho2{
+    max-width: 75%;
+    width: 100%;
+    display: flex;
+}*/
+
+

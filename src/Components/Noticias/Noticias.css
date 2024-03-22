@@ -1,5 +1,9 @@
 
-
+@media screen and (max-width:767px){
+    #Main_Noticias{
+        display: none;
+    }
+}
 
 #Main_Noticias{
     width: 98%;
@@ -14,6 +18,8 @@
 }
 
 #Artigo_Principal_Noticias{
+    width: 100%;
+    margin: auto;
     height: 400px;
     display: flex;
     justify-content: center;
