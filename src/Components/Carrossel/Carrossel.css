@@ -10,7 +10,7 @@ section.slider{
 
 .slider-content{
     width: 400%;
-    height: auto;
+    max-height:400px;
     display: flex;
 }
 
@@ -28,8 +28,11 @@ section.slider{
     transition: 1s;
 }
 .slide-box img{
-    height: 400px;
+    height: 100%;
+    width: 99%;
+    margin: auto;
 }
+
 
 .nav-manual, .nav-auto{
     position:absolute;
@@ -84,10 +87,10 @@ section.slider{
         display: none;
     }
     .slide-box{
-        height: 250px;
+        height: 100%;
     }
     .img-mobile{
-        max-width: 300px;
+        max-width: 400px;
         display: block;
         width: 98%;
         margin: auto;

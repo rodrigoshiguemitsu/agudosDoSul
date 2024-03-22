@@ -2,14 +2,14 @@ import {useEffect} from 'react'
 import './Carrossel.css'
 
 //Desktop 1800x1200 ... mobile 1040x
-import desktop1 from '../../Multimidia/AgudosSul1.jpg'
-import mobile1 from '../../Multimidia/AgudosSulMobile1.jpg'
+import desktop1 from '../../Multimidia/BannerDengue-1920x590.png'
+import mobile1 from '../../Multimidia/BannerDengue-400q123hMobile.png'
 
-import desktop2 from '../../Multimidia/agudosSul2.jpg'
-import mobile2 from '../../Multimidia/agudosSulMobile2.jpg'
+import desktop2 from '../../Multimidia/BannerVacinaCovid-1920x590.png'
+import mobile2 from '../../Multimidia/BannerVacinaCovid-400w123hMobile.png'
 
-import desktop3 from '../../Multimidia/agudosSul3.jpg'
-import mobile3 from '../../Multimidia/agudosSulMobile3.jpg'
+import desktop3 from '../../Multimidia/BannerIPTU-1920x590.png'
+import mobile3 from '../../Multimidia/BannerIPTU-400w123hMobile.png'
 
 function Carrossel(){
 
