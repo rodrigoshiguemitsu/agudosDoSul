@@ -4,6 +4,7 @@ import Header from "../Components/Header"
 import LinksOrgaosPublicos from "../Components/LinksOrgaosPublicos"
 import Noticias from "../Components/Noticias"
 import Servicos from '../Components/Servicos'
+import Footer from '../Components/Footer'
 
 import './Home.css'
 
@@ -16,6 +17,7 @@ function Home(){
             <Servicos/>
             <Noticias/>
             <LinksOrgaosPublicos/>
+            <Footer/>
         </main>
     )
 }
